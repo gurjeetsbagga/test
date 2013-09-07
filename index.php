@@ -7,8 +7,9 @@
             $(document).ready(function() {
 
                 $('dd:not(:first)').hide();
+                //hello
                 $('dt:not(:first)').hide();
-
+                //now
                 $('.required').click(function() {
                     var el = $('.first');
                     var next = el.next('dt');
