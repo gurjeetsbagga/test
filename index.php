@@ -5,7 +5,6 @@
         <script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
         <script>
             $(document).ready(function() {
-
                 $('dd:not(:first)').hide();
                 //hello
                 $('dt:not(:first)').hide();
@@ -22,6 +21,7 @@
                 });
 
                 $('.back').click(function() {
+
                     var el = $('.first');
                     var prev = el.prev('dd');
                     el.css('display', 'none').removeClass('first');
